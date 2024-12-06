@@ -21,5 +21,5 @@ HTTP SERVER OLUŞTURULDU
 
 */
 http.createServer(app).listen(app.get('port'), function(){
-	console.log('System ' + app.get('port') + ' Portu Üzerinde Çalışıyor.');
+	console.log('SSystem ' + app.get('port') + ' Portu Üzerinde Çalışıyor.');
 });
